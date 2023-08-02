@@ -1,0 +1,12 @@
+#!/bin/bash
+
+echo "input file name"
+read filename
+
+echo "file content"
+read content
+
+echo "${content}" > ${filename}
+
+#echo "#!/bin/bash" > ${filename}
+
